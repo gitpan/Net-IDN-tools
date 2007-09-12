@@ -1,7 +1,12 @@
+# $Id: Punycode.pm 37 2007-09-12 20:57:33Z cfaerber $
+
 package Net::IDN::Punycode;
 
 use strict;
-our $VERSION = 0.02;
+require 5.006_000;
+
+our $VERSION = 0.99_20070912;
+$VERSION = eval $VERSION;
 
 require Exporter;
 our @ISA    = qw(Exporter);
@@ -189,7 +194,7 @@ C<eval>.
 
 =head1 AUTHOR
 
-Tatsuhiko Miyagawa E<lt>miyagawa@bulknews.netE<gt>, Claus Färber E<lt>perl@cfaerber.nameE<gt>
+Tatsuhiko Miyagawa E<lt>miyagawa@bulknews.netE<gt>, Claus Färber E<lt>CFAERBER@cpan.orgE<gt>
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

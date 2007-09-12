@@ -1,8 +1,14 @@
+# $Id: Nameprep.pm 35 2007-09-12 20:39:14Z cfaerber $
+
 package Net::IDN::Nameprep;
 
 use strict;
-require v5.6.0;
-our $VERSION = '0.021';
+require 5.006_000;
+
+our $VERSION = 0.99_20070912;
+$VERSION = eval $VERSION;
+
+require Exporter;
 our @ISA    = qw(Exporter);
 our @EXPORT = qw(nameprep);
 

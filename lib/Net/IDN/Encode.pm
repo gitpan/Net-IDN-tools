@@ -1,11 +1,11 @@
-# $Id: Encode.pm 23 2006-11-16 23:35:14Z cfaerber $ #
+# $Id: Encode.pm 37 2007-09-12 20:57:33Z cfaerber $ #
 
 package Net::IDN::Encode;
 
 use strict;
-require v5.6.0;
+require 5.006_000;
 
-our $VERSION = '0.99_20070909';
+our $VERSION = 0.99_20070912;
 $VERSION = eval $VERSION;
 
 use Carp;
@@ -150,13 +150,9 @@ sub domain_to_unicode { _domain(shift,\&_to_unicode) }
 sub email_to_ascii { _email(shift,\&_to_ascii) }
 sub email_to_unicode { _email(shift,\&_to_unicode) }
 
-=head1 BUGS
-
-This module relies on modules that should be considered ALPHA.
-
 =head1 AUTHOR
 
-Claus A. Färber <perl@cfaerber.name>
+Claus A. Färber <CFAERBER@cpan.org>
 
 =head1 SEE ALSO
 
