@@ -1,11 +1,11 @@
-# $Id: Punycode.pm 37 2007-09-12 20:57:33Z cfaerber $
+# $Id: Punycode.pm 38 2007-09-12 21:06:55Z cfaerber $
 
 package IDNA::Punycode;
 
 use strict;
 require 5.006_006;
 
-our $VERSION = 0.99_20070912;
+our $VERSION = '0.99_20070912';
 $VERSION = eval $VERSION;
 
 require Exporter;

@@ -1,11 +1,11 @@
-# $Id: Nameprep.pm 35 2007-09-12 20:39:14Z cfaerber $
+# $Id: Nameprep.pm 38 2007-09-12 21:06:55Z cfaerber $
 
 package Net::IDN::Nameprep;
 
 use strict;
 require 5.006_000;
 
-our $VERSION = 0.99_20070912;
+our $VERSION = '0.99_20070912';
 $VERSION = eval $VERSION;
 
 require Exporter;

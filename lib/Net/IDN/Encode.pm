@@ -1,11 +1,11 @@
-# $Id: Encode.pm 37 2007-09-12 20:57:33Z cfaerber $ #
+# $Id: Encode.pm 38 2007-09-12 21:06:55Z cfaerber $ #
 
 package Net::IDN::Encode;
 
 use strict;
 require 5.006_000;
 
-our $VERSION = 0.99_20070912;
+our $VERSION = '0.99_20070912';
 $VERSION = eval $VERSION;
 
 use Carp;
