@@ -3,9 +3,10 @@
 package Net::IDN::Punycode;
 
 use strict;
+use utf8;
 require 5.006_000;
 
-our $VERSION = '0.99_20070912';
+our $VERSION = '0.99_20070921';
 $VERSION = eval $VERSION;
 
 require Exporter;

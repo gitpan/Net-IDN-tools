@@ -1,7 +1,7 @@
 # http://module-build.sourceforge.net/META-spec.html
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         Net-IDN-tools
-version:      0.99_20070912
+version:      0.99_20070921
 version_from: lib/Net/IDN/Encode.pm
 installdirs:  site
 requires:
