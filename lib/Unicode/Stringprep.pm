@@ -1,4 +1,4 @@
-# $Id: Stringprep.pm 42 2007-09-21 16:10:49Z cfaerber $
+# $Id: Stringprep.pm 45 2007-09-22 11:27:53Z cfaerber $
 
 package Unicode::Stringprep;
 
@@ -209,9 +209,11 @@ sub _compile_bidi {
 1;
 __END__
 
+=encoding utf8
+
 =head1 NAME
 
-Unicode::Stringprep - Preparation of Internationalized Strings (RFC 3454)
+Unicode::Stringprep - Preparation of Internationalized Strings (S<RFC 3454>)
 
 =head1 SYNOPSIS
 
@@ -245,10 +247,12 @@ The I<stringprep> framework does not specify how protocols should
 prepare text strings. Protocols must create profiles of
 stringprep in order to fully specify the processing options.
 
+=head1 FUNCTIONS
+
 This module provides a single function, C<new>, that creates a
 perl function implementing a I<stringprep> profile.
 
-=head1 FUNCTIONS
+This module exports nothing.
 
 =over 4
 
@@ -377,6 +381,6 @@ it under the same terms as Perl itself.
 
 =head1 SEE ALSO
 
-L<Unicode::Normalize>, S<RFC 3454>
+L<Unicode::Normalize>, S<RFC 3454> L<http://www.ietf.org/rfc/rfc3454.txt>
 
 =cut

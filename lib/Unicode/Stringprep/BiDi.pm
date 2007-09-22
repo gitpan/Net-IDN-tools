@@ -423,6 +423,8 @@ END
 
 __END__
 
+=encoding utf8
+
 =head1 NAME
 
 Unicode::Stringprep::BiDi - Tables from S<RFC 3454>, S<Appendix D>
@@ -449,6 +451,6 @@ it under the same terms as Perl itself.
 
 =head1 SEE ALSO
 
-L<Unicode::Stringprep>, S<RFC 3454>
+L<Unicode::Stringprep>, S<RFC 3454> L<http://www.ietf.org/rfc/rfc3454.txt>
 
 =cut

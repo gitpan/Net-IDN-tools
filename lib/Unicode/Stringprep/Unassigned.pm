@@ -422,6 +422,8 @@ END
 
 __END__
 
+=encoding utf8
+
 =head1 NAME
 
 Unicode::Stringprep::Unassigned - Tables from S<RFC 3454>, S<Appendix A>
@@ -436,6 +438,8 @@ The tables are provided as arrays, which contain pairs of Unicode
 codepoints (as integers) defining the start and end of a Unicode
 range.
 
+This module exports nothing.
+
 =head1 AUTHOR
 
 Claus Färber E<lt>CFAERBER@cpan.orgE<gt>
@@ -445,6 +449,6 @@ it under the same terms as Perl itself.
 
 =head1 SEE ALSO
 
-L<Unicode::Stringprep>, S<RFC 3454>
+L<Unicode::Stringprep>, S<RFC 3454> L<http://www.ietf.org/rfc/rfc3454.txt>
 
 =cut

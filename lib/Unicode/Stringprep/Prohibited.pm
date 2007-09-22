@@ -1,4 +1,4 @@
-# $Id: Prohibited.pm 42 2007-09-21 16:10:49Z cfaerber $
+# $Id: Prohibited.pm 45 2007-09-22 11:27:53Z cfaerber $
 
 package Unicode::Stringprep::Prohibited;
 
@@ -137,6 +137,8 @@ END
 
 __END__
 
+=encoding utf8
+
 =head1 NAME
 
 Unicode::Stringprep::Prohibited - Tables from S<RFC 3454>, S<Appendix C>
@@ -161,6 +163,8 @@ The tables are provided as arrays, which contain pairs of Unicode
 codepoints (as integers) defining the start and end of a Unicode
 range.
 
+This module exports nothing.
+
 =head1 AUTHOR
 
 Claus Färber E<lt>CFAERBER@cpan.orgE<gt>
@@ -170,6 +174,6 @@ it under the same terms as Perl itself.
 
 =head1 SEE ALSO
 
-L<Unicode::Stringprep>, S<RFC 3454>
+L<Unicode::Stringprep>, S<RFC 3454> L<http://www.ietf.org/rfc/rfc3454.txt>
 
 =cut

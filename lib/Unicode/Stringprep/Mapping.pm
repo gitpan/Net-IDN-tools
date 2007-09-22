@@ -1,4 +1,4 @@
-# $Id: Mapping.pm 42 2007-09-21 16:10:49Z cfaerber $
+# $Id: Mapping.pm 45 2007-09-22 11:27:53Z cfaerber $
 
 package Unicode::Stringprep::Mapping;
 
@@ -2275,9 +2275,11 @@ END
 
 __END__
 
+=encoding utf8
+
 =head1 NAME
 
-Unicode::Stringprep::Mapping - Tables from S<RFC 3454>m S<Appendix B>
+Unicode::Stringprep::Mapping - Tables from S<RFC 3454>, S<Appendix B>
 
 =head1 SYNOPSIS
 
@@ -2291,6 +2293,8 @@ The tables are provided as arrays, which contain pairs of a
 Unicode codepoint (as an integer) and replacements string (as a
 UTF8 perl string).
 
+This module exports nothing.
+
 =head1 AUTHOR
 
 Claus Färber
@@ -2300,6 +2304,6 @@ it under the same terms as Perl itself.
 
 =head1 SEE ALSO
 
-L<Unicode::Stringprep>, S<RFC 3454>
+L<Unicode::Stringprep>, S<RFC 3454> L<http://www.ietf.org/rfc/rfc3454.txt>
 
 =cut

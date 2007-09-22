@@ -1,4 +1,4 @@
-# $Id: 31_encode_all_bytes.t 40 2007-09-21 15:31:44Z cfaerber $
+# $Id: 31_encode_all_bytes.t 45 2007-09-22 11:27:53Z cfaerber $
 
 use bytes;
 use strict;

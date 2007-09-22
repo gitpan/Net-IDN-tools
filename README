@@ -39,4 +39,4 @@ ACKNOWLEDGMENTS
 
   Tatsuhiko Miyagawa -- Net::IDN::Nameprep and IDNA::Punycode
 
-$Id: README 31 2007-09-12 20:17:26Z cfaerber $
+$Id: README 45 2007-09-22 11:27:53Z cfaerber $

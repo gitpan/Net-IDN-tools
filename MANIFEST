@@ -12,6 +12,7 @@ lib/Unicode/Stringprep/Prohibited.pm
 lib/Unicode/Stringprep/BiDi.pm
 lib/Net/IDN/Punycode.pm
 lib/IDNA/Punycode.pm
+lib/Encode/Punycode.pm
 t/01_use_nameprep.t
 t/02_use_punycode.t
 t/03_use_encode.t
