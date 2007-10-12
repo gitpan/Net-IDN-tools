@@ -1,4 +1,4 @@
-# $Id: Makefile.PL 48 2007-09-22 15:04:33Z cfaerber $
+# $Id: Makefile.PL 71 2007-10-12 14:55:47Z cfaerber $
 
 use utf8;
 use ExtUtils::MakeMaker;

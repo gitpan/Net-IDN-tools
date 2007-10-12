@@ -26,4 +26,4 @@ Revision history for Perl extension Net::IDN::Encode
 0.01  Sun May 30 00:00:00 2004
 	- first release
 
-$Id: Changes 45 2007-09-22 11:27:53Z cfaerber $
+$Id: Changes 71 2007-10-12 14:55:47Z cfaerber $

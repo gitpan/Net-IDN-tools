@@ -1,4 +1,4 @@
-# $Id: Nameprep.pm 64 2007-09-29 19:31:46Z cfaerber $
+# $Id: Nameprep.pm 71 2007-10-12 14:55:47Z cfaerber $
 
 package Net::IDN::Nameprep;
 

@@ -7,14 +7,12 @@ lib/Net/IDN/Encode.pm
 lib/Net/IDN/Nameprep.pm
 lib/Net/IDN/Punycode.pm
 lib/IDNA/Punycode.pm
-lib/Encode/Punycode.pm
 t/00use.t
 t/01use_extra.t
 t/encode_bytes.t
 t/encode_utf8.t
 t/nameprep_vec.t
 t/punycode_vec.t
-t/zenc_punyc_vec.t
 t/zidna_punyc_prefix.t
 t/zidna_punyc_raw.t
 META.yml                                 Module meta-data (added by MakeMaker)

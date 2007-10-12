@@ -1,4 +1,4 @@
-# $Id: nameprep_vec.t 63 2007-09-29 19:29:54Z cfaerber $
+# $Id: nameprep_vec.t 71 2007-10-12 14:55:47Z cfaerber $
 
 use strict;
 use utf8;
