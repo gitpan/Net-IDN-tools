@@ -1,15 +1,12 @@
-# $Id: $
-
-# Test vectors extracted from:
-#
-#                    Nameprep and IDNA Test Vectors
-#                   draft-josefsson-idn-test-vectors
+# $Id: nameprep_vec.t 63 2007-09-29 19:29:54Z cfaerber $
 
 use strict;
 use utf8;
 
 use Test::More;
 use Net::IDN::Nameprep;
+
+no warnings 'utf8';
 
 our @strprep = (
      [
@@ -130,19 +127,16 @@ our @strprep = (
        "\x{10F234}", undef, "Nameprep", 0,
        'STRINGPREP_CONTAINS_PROHIBITED'
      ],
-
-# perl does not like these
-
-#      [
-#        "Non-character code point U+8FFFE",
-#        "\x{8FFFE}", undef, "Nameprep", 0,
-#        'STRINGPREP_CONTAINS_PROHIBITED'
-#      ],
-#      [
-#        "Non-character code point U+10FFFF",
-#        "\x{10FFFF}", undef, "Nameprep", 0,
-#        'STRINGPREP_CONTAINS_PROHIBITED'
-#      ],
+     [
+       "Non-character code point U+8FFFE",
+       "\x{8FFFE}", undef, "Nameprep", 0,
+       'STRINGPREP_CONTAINS_PROHIBITED'
+     ],
+     [
+       "Non-character code point U+10FFFF",
+       "\x{10FFFF}", undef, "Nameprep", 0,
+       'STRINGPREP_CONTAINS_PROHIBITED'
+     ],
      [
        "Surrogate code U+DF42",
        "\x{DF42}", undef, "Nameprep", 0,
@@ -237,6 +231,11 @@ foreach my $test (@strprep)
   is(eval{nameprep($in)}, $rc ? undef : $out, $comment);
 }
 
+# Test vectors extracted from:
+#
+#                    Nameprep and IDNA Test Vectors
+#                   draft-josefsson-idn-test-vectors
+#
 # Copyright (C) The Internet Society (2003). All Rights Reserved.
 #
 # This document and translations of it may be copied and furnished

@@ -1,4 +1,4 @@
-# $Id: Makefile.PL 45 2007-09-22 11:27:53Z cfaerber $
+# $Id: Makefile.PL 48 2007-09-22 15:04:33Z cfaerber $
 
 use utf8;
 use ExtUtils::MakeMaker;
@@ -10,7 +10,7 @@ WriteMakefile(
     'DISTNAME'		=> 'Net-IDN-tools',
     'VERSION_FROM'	=> 'lib/Net/IDN/Encode.pm', # finds $VERSION
     'PREREQ_PM'		=> {
-		'Unicode::Normalize' => 0.01,
+		'Unicode::Stringprep' => 1.00,
 	},
     ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
       (ABSTRACT => 'modules for handling of Internationalised Domain Names in Applications (IDNA)',
